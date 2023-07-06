@@ -1,0 +1,152 @@
+#desktop {
+    display: none;
+}
+
+#cellphones {
+    display: block;
+    font-size: 5rem;
+    background-color: yellow;
+}
+
+.bad nav {
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.bad nav>* {}
+
+.bad nav div a {}
+
+.bad nav img {}
+
+.bad nav input {}
+
+.bad .promo {}
+
+.bad .banner-text {}
+
+.bad .banner-text p {}
+
+.bad .banner-text span h1 {}
+
+.bad .banner img {
+    width: 20%;
+}
+
+.bad .img-parallax {
+    position: absolute;
+    background-image: url('../img/banner.jpg');
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+.bad .img-parallax h1 {
+    font-size: 100px;
+}
+
+.bad .products img {
+    width: 100%;
+}
+
+.bad .products {
+    background-color: blueviolet;
+}
+
+.bad .img1 {
+    width: 400px;
+    border: 1px solid red;
+    background-color: aquamarine;
+}
+
+.bad .img2 {
+    width: 200px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.bad .img3 {
+    width: 600px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+
+.bad .img4 {
+    width: 50px;
+    border: 1px solid red;
+}
+
+.bad .img5 {
+    width: 300px;
+    border: 1px solid red;
+}
+
+.bad .img6 {
+    width: 800px;
+    border: 1px solid red;
+}
+
+.bad .img7 {
+    width: 150px;
+    border: 1px solid red;
+}
+
+.bad .img8 {
+    background-color: tomato;
+}
+
+.bad .img9 {
+    background-color: chartreuse;
+}
+
+.bad .img10 {
+    background-color: hotpink
+}
+
+.bad .img11 {}
+
+.bad .img12 {
+    background-color: lemonchiffon;
+}
+
+.bad .img13 {
+    background-color: navy;
+}
+
+.bad .img14 {}
+
+.bad footer {
+    display: flex;
+    color: white;
+    padding: 30px 0;
+}
+
+.bad footer a {}
+
+.bad footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bad .social-media {
+    background-color: white;
+    border: 10px solid black;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.bad .social-media img {
+    width: 30%;
+}
+
+@media only screen and (min-width: 1024px) {
+    #desktop {
+        display: block;
+    }
+
+    #cellphones {
+        display: none;
+    }
+}
