@@ -340,3 +340,13 @@
 #audio {
     display: none;
 }
+
+.boom {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boom img {
+    width: 100%;
+}

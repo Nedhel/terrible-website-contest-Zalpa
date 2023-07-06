@@ -4,14 +4,14 @@ window.addEventListener("keydown", (keys) => {
     let msj = document.getElementById("warning");
     let time_remaining = document.getElementById("time-remaining");
     let alarm = document.getElementById("audio");
-    let seconds = 20;
+    let seconds = 10;
     if (keys.ctrlKey && keys.key == "v") {
         element.classList.add("good");
         element.classList.remove("bad");
         element.classList.remove("virus");
         msj.style.display = "none";
         window.clearInterval(time);
-        time_remaining.innerHTML = 20;
+        time_remaining.innerHTML = 10;
         alarm.pause();
     } else if (keys.ctrlKey && keys.key == "b") {
         element.classList.remove("good");
@@ -24,6 +24,11 @@ window.addEventListener("keydown", (keys) => {
             seconds -= 1;
             time_remaining.innerHTML = seconds;
             if (seconds < 0) {
+                element.style.display = "none";
+                msj.style.display = "none";
+                document.getElementById("boom").style.display = "block";
+            }
+            if (seconds < -1) {
                 window.close();
             }
             seconds % 2 == 0
